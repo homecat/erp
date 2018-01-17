@@ -12,7 +12,6 @@ class Module
 {
     public function getConfig()
     {
-        echo 'getconfig';
         return include __DIR__ . '/../config/module.config.php';
     }
 
