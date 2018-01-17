@@ -6,16 +6,18 @@
  * Time: 15:45
  */
 namespace System;
+use Zend\Router\Http\Literal;
+
 
 return [
     'router' => [
         'routes' => [
             'system' => [
-                'type'    => 'literal',
+                'type'    => Literal::class,
                 'options' => [
                     'route'    => '/system',
                     'defaults' => [
-                        'controller' => 'System\Controller\UserController',
+                        'controller' => Controller\UserController::class,
                         'action'     => 'index',
                     ],
                 ],
