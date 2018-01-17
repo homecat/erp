@@ -17,14 +17,14 @@ return [
                 'options' => [
                     'route'    => '/system',
                     'defaults' => [
-                        'controller' => 'UserController',
+                        'controller' => Controller\UserController::class,
                         'action'     => 'index',
                     ],
                 ],
             ],
         ],
     ],
-/*    'controllers' => [
+    'controllers' => [
         'factories' => [
             Controller\UserController::class => InvokableFactory::class,
         ],
@@ -33,5 +33,5 @@ return [
         'template_path_stack' => [
             'system' => __DIR__ . '/../view',
         ],
-    ],*/
+    ],
 ];
