@@ -41,6 +41,7 @@ return [
             Controller\IndexController::class => InvokableFactory::class,
         ],
     ],
+/*
     'view_manager' => [
         'display_not_found_reason' => true,
         'display_exceptions'       => true,
@@ -56,5 +57,5 @@ return [
         'template_path_stack' => [
             __DIR__ . '/../view',
         ],
-    ],
+    ],*/
 ];
