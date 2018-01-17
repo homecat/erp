@@ -6,5 +6,23 @@
  * Time: 15:45
  */
 namespace System;
+use Zend\Router\Http\Segment;
 
-return [];
+
+return [
+    'router' =>[
+        'routes' => [
+            'system' => [
+                'type'    => Segment::class,
+                'options' => [
+                    'route'    => '/system[/:action]',
+                    'defaults' => [
+                        'controller' => Controller\IndexController::class,
+                        'action'     => 'index',
+                    ],
+                ],
+            ],
+        ],
+    ],
+
+];
