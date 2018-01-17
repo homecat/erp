@@ -16,7 +16,8 @@ return [
                 'options' => [
                     'route'    => '/system[/:action]',
                     'defaults' => [
-                        'controller' => 'System/Controller/User',
+                        '__NAMESPACE__' => 'System\Controller',
+                        'controller' => 'UserController',
                         'action'     => 'index',
                     ],
                 ],
