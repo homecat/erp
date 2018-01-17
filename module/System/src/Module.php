@@ -6,8 +6,10 @@
  * Time: 16:14
  */
 namespace System;
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
-class Module
+class Module implements ConfigProviderInterface
+
 {
     public function getConfig()
     {
