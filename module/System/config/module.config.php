@@ -10,14 +10,14 @@ use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-    'router' =>[
+    'router' => [
         'routes' => [
-            'system' => [
+            'application' => [
                 'type'    => Segment::class,
                 'options' => [
-                    'route'    => '/system[/:action]',
+                    'route'    => '/application[/:action]',
                     'defaults' => [
-                        'controller' => Controller\UserController::class,
+                        'controller' => Controller\IndexController::class,
                         'action'     => 'index',
                     ],
                 ],
@@ -26,7 +26,7 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\UserController::class => InvokableFactory::class,
+            Controller\IndexController::class => InvokableFactory::class,
         ],
     ],
 
