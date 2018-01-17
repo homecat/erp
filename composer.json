@@ -25,8 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ApplicationTest\\": "module/Application/test/",
-            "System\\": "module/System/src/"
+            "ApplicationTest\\": "module/Application/test/"
         }
     },
     "extra": [],

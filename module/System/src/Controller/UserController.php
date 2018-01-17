@@ -1,28 +1,26 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: jk
- * Date: 2018/1/17
- * Time: 15:49
+ * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
+ * @copyright Copyright (c) 2005-2016 Zend Technologies USA Inc. (http://www.zend.com)
+ * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
+
 namespace System\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-
 class UserController extends AbstractActionController
 {
     public function indexAction()
     {
-        echo 'index';
+        echo 'system index';
         exit;
     }
 
     public function testAction()
     {
-        echo 'application test action';
+        echo 'user test action';
         exit;
     }
-
 }

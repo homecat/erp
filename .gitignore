@@ -9,4 +9,4 @@ phpunit.xml
 *.dist
 Vagrantfile
 cmt
-vendor
+vendor/
