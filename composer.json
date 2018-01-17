@@ -20,7 +20,7 @@
     "autoload": {
         "psr-4": {
             "Application\\": "module/Application/src/",
-            "System\\":"module/System/src"
+            "System\\": "module/System/src/"
         }
     },
     "autoload-dev": {
