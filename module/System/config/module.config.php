@@ -17,7 +17,7 @@ return [
                 'options' => [
                     'route'    => '/system[/:action]',
                     'defaults' => [
-                        'controller' => Controller\IndexController::class,
+                        'controller' => Controller\UserController::class,
                         'action'     => 'index',
                     ],
                 ],
