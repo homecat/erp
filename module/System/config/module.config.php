@@ -15,7 +15,7 @@ return [
             'system' => [
                 'type'    => Literal::class,
                 'options' => [
-                    'route'    => '/system/src',
+                    'route'    => '/system',
                     'defaults' => [
                         'controller' => Controller\UserController::class,
                         'action'     => 'index',
