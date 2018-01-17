@@ -7,7 +7,7 @@
  */
 namespace System;
 use Zend\Router\Http\Literal;
-
+use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
@@ -22,6 +22,11 @@ return [
                     ],
                 ],
             ],
+        ],
+    ],
+    'controllers' => [
+        'factories' => [
+            Controller\UserController::class => InvokableFactory::class,
         ],
     ],
 ];
