@@ -32,8 +32,8 @@ if (! class_exists(Application::class)) {
 
 // Retrieve configuration
 $appConfig = require __DIR__ . '/../config/application.config.php';
-if (file_exists(__DIR__ . '/../config/development.config.php')) {
-    $appConfig = ArrayUtils::merge($appConfig, require __DIR__ . '/../config/development.config.php');
+if (file_exists(__DIR__ . '/../config/development.config.php.dist')) {
+    $appConfig = ArrayUtils::merge($appConfig, require __DIR__ . '/../config/development.config.php.dist');
 }
 
 // Run the application!
