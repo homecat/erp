@@ -10,29 +10,29 @@ use Zend\Router\Http\Literal;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-//    'router' => [
-//        'routes' => [
-//            'system' => [
-//                'type'    => Literal::class,
-//                'options' => [
-//                    'route'    => '/system',
-//                    'defaults' => [
-//                        'controller' => Controller\UserController::class,
-//                        'action'     => 'index',
-//                    ],
-//                ],
-//            ],
-//        ],
-//    ],
-//    'controllers' => [
-//        'factories' => [
-//            Controller\UserController::class => InvokableFactory::class,
-//        ],
-//    ],
-//
-//    'view_manager' => [
-//        'template_path_stack' => [
-//            'system' => __DIR__ . '/../view',
-//        ],
-//    ],
+    'router' => [
+        'routes' => [
+            'system' => [
+                'type'    => Literal::class,
+                'options' => [
+                    'route'    => '/system',
+                    'defaults' => [
+                        'controller' => Controller\UserController::class,
+                        'action'     => 'index',
+                    ],
+                ],
+            ],
+        ],
+    ],
+    'controllers' => [
+        'factories' => [
+            Controller\UserController::class => InvokableFactory::class,
+        ],
+    ],
+
+    'view_manager' => [
+        'template_path_stack' => [
+            'system' => __DIR__ . '/../view',
+        ],
+    ],
 ];
