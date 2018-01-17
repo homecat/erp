@@ -13,7 +13,7 @@ return [
             'system' => [
                 'type'    => 'literal',
                 'options' => [
-                    'route'    => '/system[/:action]',
+                    'route'    => '/system',
                     'defaults' => [
                         'controller' => 'System\Controller\UserController',
                         'action'     => 'index',
