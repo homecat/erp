@@ -7,7 +7,6 @@
  */
 namespace System;
 use Zend\Router\Http\Segment;
-use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
@@ -17,18 +16,11 @@ return [
                 'options' => [
                     'route'    => '/system[/:action]',
                     'defaults' => [
-                        'controller' => Controller\UserController::class,
+                        'controller' => 'System/Controller/User',
                         'action'     => 'index',
                     ],
                 ],
             ],
         ],
     ],
-    'controllers' => [
-        'invokables' => [
-            'System\Controller\Index' => 'system\Controller\UserController',
-        ],
-    ],
-
-
 ];
