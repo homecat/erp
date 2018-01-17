@@ -25,8 +25,8 @@ return [
         ],
     ],
     'controllers' => [
-        'factories' => [
-            Controller\UserController::class => InvokableFactory::class,
+        'invokables' => [
+            'System\Controller\Index' => 'system\Controller\UserController',
         ],
     ],
 

@@ -19,9 +19,9 @@ class UserController extends AbstractActionController
         exit;
     }
 
-    public function loginAction()
+    public function testAction()
     {
-        echo 'login';
+        echo 'application test action';
         exit;
     }
 
