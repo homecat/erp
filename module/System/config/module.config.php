@@ -9,7 +9,7 @@ namespace System;
 use Zend\Router\Http\Literal;
 use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
-echo  __DIR__ . '/../view';exit;
+
 return [
     'router' => [
         'routes' => [
