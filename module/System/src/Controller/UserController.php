@@ -19,7 +19,6 @@ class UserController extends AbstractActionController
 
     public function testAction()
     {
-        echo 'user test action';
-        exit;
+        Return new ViewModel();
     }
 }
