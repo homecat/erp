@@ -14,7 +14,7 @@ class UserController extends AbstractActionController
 {
     public function indexAction()
     {
-        Return
+        Return new ViewModel();
     }
 
     public function testAction()
