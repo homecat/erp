@@ -7,15 +7,16 @@
  */
 namespace System;
 use Zend\Router\Http\Literal;
+use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
         'routes' => [
             'system' => [
-                'type'    => Literal::class,
+                'type'    => Segment::class,
                 'options' => [
-                    'route'    => '/system',
+                    'route'    => '/system[/:action]',
                     'defaults' => [
                         'controller' => Controller\UserController::class,
                         'action'     => 'index',
