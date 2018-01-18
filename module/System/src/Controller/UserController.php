@@ -14,8 +14,7 @@ class UserController extends AbstractActionController
 {
     public function indexAction()
     {
-        echo 'system index';
-        exit;
+        Return
     }
 
     public function testAction()
