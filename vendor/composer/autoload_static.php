@@ -13,7 +13,6 @@ class ComposerStaticInitd5c2e857c63b967f0f8292422bd49be7
             'Zend\\Validator\\' => 15,
             'Zend\\Uri\\' => 9,
             'Zend\\Stdlib\\' => 12,
-            'Zend\\SkeletonInstaller\\' => 23,
             'Zend\\ServiceManager\\' => 20,
             'Zend\\Router\\' => 12,
             'Zend\\Mvc\\' => 9,
@@ -25,6 +24,10 @@ class ComposerStaticInitd5c2e857c63b967f0f8292422bd49be7
             'Zend\\Config\\' => 12,
             'Zend\\ComponentInstaller\\' => 24,
             'ZF\\DevelopmentMode\\' => 19,
+        ),
+        'S' => 
+        array (
+            'System\\' => 7,
         ),
         'P' => 
         array (
@@ -57,10 +60,6 @@ class ComposerStaticInitd5c2e857c63b967f0f8292422bd49be7
         'Zend\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
-        ),
-        'Zend\\SkeletonInstaller\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-skeleton-installer/src',
         ),
         'Zend\\ServiceManager\\' => 
         array (
@@ -105,6 +104,10 @@ class ComposerStaticInitd5c2e857c63b967f0f8292422bd49be7
         'ZF\\DevelopmentMode\\' => 
         array (
             0 => __DIR__ . '/..' . '/zfcampus/zf-development-mode/src',
+        ),
+        'System\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/System/src',
         ),
         'Psr\\Container\\' => 
         array (
