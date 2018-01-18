@@ -36,7 +36,7 @@ return [
             'layout/layout'   => __DIR__ . '/../view/layout/layout.phtml',
         ],
         'template_path_stack' => [
-            __DIR__ . '/../view',
+            __DIR__ . '/view',
         ],
     ],
 ];
