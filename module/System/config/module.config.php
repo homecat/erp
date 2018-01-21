@@ -41,5 +41,8 @@ return [
         'template_path_stack' => [
            'user' => __DIR__ . '/../view',
         ],
+        'strategies' => [
+            'ViewJsonStrategy',
+        ],
     ],
 ];
