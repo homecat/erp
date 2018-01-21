@@ -30,13 +30,13 @@ class UserController extends AbstractActionController
 
     public function testAction()
     {
-        if ($this->getRequest()->isXmlHttpRequest()) {
-            $jsonModel = new JsonModel(...);
-
-            /* @todo Render HTML script into `$html` variable, and add to `JsonModel` */
-            return $jsonModel;
-        } else {
-            return new ViewModel(...);
-        }
+//        if ($this->getRequest()->isXmlHttpRequest()) {
+//            $jsonModel = new JsonModel(...);
+//
+//            /* @todo Render HTML script into `$html` variable, and add to `JsonModel` */
+//            return $jsonModel;
+//        } else {
+//            return new ViewModel(...);
+//        }
     }
 }
