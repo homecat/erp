@@ -11,7 +11,7 @@
  * file.
  */
 
-/*return [
+return [
     'db' => [
         'driver'         => 'pdo',
         'dsn'            => 'mysql:dbname=test;host=localhost',
@@ -20,4 +20,4 @@
     'service_manager'=> [
         'factories'      => ['Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',],
     ],
-];*/
+];
