@@ -30,19 +30,19 @@ return [
             Controller\UserController::class => InvokableFactory::class,
         ],
     ],
-    'view_manager' => [
-        'doctype'             => 'HTML5',
-        'template_map' => [
-            'layout/layout'   => __DIR__ . '/../view/layout/layout.phtml',
-        ],
-        'template_map' => [
-            'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
-        ],
-        'template_path_stack' => [
-           'user' => __DIR__ . '/../view',
-        ],
-        'strategies' => [
-            'ViewJsonStrategy',
-        ],
-    ],
+//    'view_manager' => [
+//        'doctype'             => 'HTML5',
+//        'template_map' => [
+//            'layout/layout'   => __DIR__ . '/../view/layout/layout.phtml',
+//        ],
+//        'template_map' => [
+//            'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
+//        ],
+//        'template_path_stack' => [
+//           'user' => __DIR__ . '/../view',
+//        ],
+//        'strategies' => [
+//            'ViewJsonStrategy',
+//        ],
+//    ],
 ];
