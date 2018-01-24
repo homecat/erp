@@ -15,17 +15,18 @@ class UserController extends AbstractActionController
 {
     public function indexAction()
     {
-        $accounts = $this->getModel()->fetchAll();
-        $data     = [];
-        $total    = 0;
-        foreach($accounts as $val){
-            $val->StartDate = date('Y-m-d' , $val->StartDate);
-            $val->Created   = date('Y-m-d' , $val->Created);
-            $data[] = $val;
-            $total ++;
-        }
-        $result =  new JsonModel(['total'=>$total , 'data'=>$data]);
-        return $result;
+        echo 'system index';
+//        $accounts = $this->getModel()->fetchAll();
+//        $data     = [];
+//        $total    = 0;
+//        foreach($accounts as $val){
+//            $val->StartDate = date('Y-m-d' , $val->StartDate);
+//            $val->Created   = date('Y-m-d' , $val->Created);
+//            $data[] = $val;
+//            $total ++;
+//        }
+//        $result =  new JsonModel(['total'=>$total , 'data'=>$data]);
+//        return $result;
     }
 
     public function testAction()

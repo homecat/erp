@@ -10,7 +10,7 @@
  * control, so do not include passwords or other sensitive information in this
  * file.
  */
-
+/*
 return [
     'db' => [
         'driver'         => 'pdo',
@@ -20,4 +20,4 @@ return [
     'service_manager'=> [
         'factories'      => ['Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',],
     ],
-];
+];*/
