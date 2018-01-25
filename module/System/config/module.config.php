@@ -19,7 +19,7 @@ return [
                     'route'    => '/system[/:action]',
                     'defaults' => [
                         'controller' => Controller\UserController::class,
-                        'action'     => 'user',
+                        'action'     => 'test',
                     ],
                 ],
             ],
