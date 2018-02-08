@@ -14,13 +14,13 @@ class UserController extends AbstractActionController
 {
     public function indexAction()
     {
-        echo 'system index';
+        echo 'system user index';
         return new ViewModel();
     }
 
     public function testAction()
     {
-        echo 'system test';
+        echo 'system user test';
         exit;
     }
 }
