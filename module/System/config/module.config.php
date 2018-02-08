@@ -16,7 +16,7 @@ return [
             'system' => [
                 'type'    => Segment::class,
                 'options' => [
-                    'route'    => '/system[/:action]',
+                    'route'    => '/system/user[/:action]',
                     'defaults' => [
                         'controller' => Controller\UserController::class,
                         'action'     => 'test',
